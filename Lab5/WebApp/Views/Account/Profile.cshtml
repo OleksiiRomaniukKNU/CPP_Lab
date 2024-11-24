@@ -1,0 +1,33 @@
+﻿@model MyApp.Web.ViewModels.UserProfileViewModel
+@{
+    ViewData["Title"] = "Профіль";
+}
+
+<div style="max-width: 400px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px; background-color: #f9f9f9;">
+    <div style="text-align: center;">
+        <h2 style="color: #09192F;">@ViewData["Title"]</h2>
+        <div style="margin-bottom: 15px;">
+            <img src="@Model.ProfileImage" alt="" class="img-rounded img-responsive" style="border-radius: 50%; width: 100px; height: 100px; object-fit: cover;" />
+        </div>
+        <div style="text-align: left;">
+            <p>
+                <i>🪪</i> @Model.FullName
+            </p>
+            <p>
+                <i>👤</i> @Model.Username
+            </p>
+            <p>
+                <i>✉️</i> @Model.Email
+            </p>
+            <p>
+                <i>📱</i> @Model.PhoneNumber
+            </p>
+        </div>
+    </div>
+</div>
+
+<form asp-controller="Account" asp-action="Logout" method="post" style="text-align: center; margin-top: 20px;">
+    <button type="submit" style="padding: 10px 20px; background-color: #FF6F61; border: none; border-radius: 4px; font-weight: bold; color: white; cursor: pointer;">
+        Logout
+    </button>
+</form>
