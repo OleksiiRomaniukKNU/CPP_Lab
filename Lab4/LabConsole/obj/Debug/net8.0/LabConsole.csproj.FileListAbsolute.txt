@@ -1,0 +1,6 @@
+C:\Users\thebr\OneDrive\Документы\GitHub\CPP_Lab\Lab4\LabConsole\obj\Debug\net8.0\LabConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thebr\OneDrive\Документы\GitHub\CPP_Lab\Lab4\LabConsole\obj\Debug\net8.0\LabConsole.AssemblyInfoInputs.cache
+C:\Users\thebr\OneDrive\Документы\GitHub\CPP_Lab\Lab4\LabConsole\obj\Debug\net8.0\LabConsole.AssemblyInfo.cs
+C:\Users\thebr\OneDrive\Документы\GitHub\CPP_Lab\Lab4\LabConsole\obj\Debug\net8.0\LabConsole.csproj.CoreCompileInputs.cache
+C:\Users\thebr\OneDrive\Документы\GitHub\CPP_Lab\Lab4\LabConsole\obj\Debug\net8.0\LabConsole.sourcelink.json
+C:\Users\thebr\OneDrive\Документы\GitHub\CPP_Lab\Lab4\LabConsole\obj\Debug\net8.0\LabConsole.csproj.AssemblyReference.cache
