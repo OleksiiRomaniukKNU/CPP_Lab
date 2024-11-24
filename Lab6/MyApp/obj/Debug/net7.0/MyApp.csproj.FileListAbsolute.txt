@@ -1,0 +1,9 @@
+C:\Users\thebr\OneDrive\Документы\GitHub\CPP_Lab\Lab6\MyApp\obj\Debug\net7.0\MyApp.csproj.AssemblyReference.cache
+C:\Users\thebr\OneDrive\Документы\GitHub\CPP_Lab\Lab6\MyApp\obj\Debug\net7.0\MyApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thebr\OneDrive\Документы\GitHub\CPP_Lab\Lab6\MyApp\obj\Debug\net7.0\MyApp.AssemblyInfoInputs.cache
+C:\Users\thebr\OneDrive\Документы\GitHub\CPP_Lab\Lab6\MyApp\obj\Debug\net7.0\MyApp.AssemblyInfo.cs
+C:\Users\thebr\OneDrive\Документы\GitHub\CPP_Lab\Lab6\MyApp\obj\Debug\net7.0\MyApp.csproj.CoreCompileInputs.cache
+C:\Users\thebr\OneDrive\Документы\GitHub\CPP_Lab\Lab6\MyApp\obj\Debug\net7.0\MyApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\thebr\OneDrive\Документы\GitHub\CPP_Lab\Lab6\MyApp\obj\Debug\net7.0\MyApp.RazorAssemblyInfo.cache
+C:\Users\thebr\OneDrive\Документы\GitHub\CPP_Lab\Lab6\MyApp\obj\Debug\net7.0\MyApp.RazorAssemblyInfo.cs
+C:\Users\thebr\OneDrive\Документы\GitHub\CPP_Lab\Lab6\MyApp\obj\Debug\net7.0\MyApp.sourcelink.json

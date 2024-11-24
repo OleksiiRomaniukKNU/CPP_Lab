@@ -1,0 +1,29 @@
+@model IEnumerable<MyApp.Models.RefCustomerType>
+
+@{
+    ViewData["Title"] = "RefCustomer Types";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>
+                    <a href="@Url.Action("Details", "RefCustomerTypes", new { id = item.Id })">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

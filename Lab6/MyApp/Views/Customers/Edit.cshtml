@@ -1,0 +1,25 @@
+@model MyApp.Models.Customer
+
+@{
+    ViewData["Title"] = "Редагування клієнта";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="Edit" method="post">
+    <div class="form-group">
+        <label for="Name">Ім'я</label>
+        <input type="text" class="form-control" id="Name" name="Name" value="@Model.Name" required />
+    </div>
+    <div class="form-group">
+        <label for="RefCustomerTypeId">Тип клієнта</label>
+        <select class="form-control" id="RefCustomerTypeId" name="RefCustomerTypeId">
+            @foreach (var type in ViewBag.CustomerTypes)
+            {
+                <option value="@type.Value" @(type.IsSelected ? "selected" : "")>@type.Name</option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Зберегти</button>
+    <a href="@Url.Action("Index", "Customers")" class="btn btn-secondary">Назад</a>
+</form>

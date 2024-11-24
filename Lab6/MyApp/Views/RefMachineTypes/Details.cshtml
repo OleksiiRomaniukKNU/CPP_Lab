@@ -1,0 +1,14 @@
+@model MyApp.Models.RefMachineType
+
+@{
+    ViewData["Title"] = "Machine Type Details";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div>
+    <h4>Name: @Model.Name</h4>
+</div>
+<div>
+    <a href="@Url.Action("Index", "RefMachineTypes")">Back to List</a>
+</div>
